@@ -1,0 +1,17 @@
+{
+  "name": "messenger",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "flux": "2.1.1",
+    "material-ui": "0.15.1",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "15.1.0",
+    "react-dom": "15.1.0"
+  },
+  "devDependencies": {
+    "normalize.css": "4.1.1"
+  }
+}

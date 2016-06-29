@@ -1,0 +1,17 @@
+node_modules/
+# Logs
+logs
+*.log
+
+*.pid
+*.seed
+
+lib-cov
+
+coverage
+
+# node-waf configuration
+.lock-wscript
+
+# Bower
+bower_components/
