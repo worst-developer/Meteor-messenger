@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { AppBar, IconButton } from 'material-ui/AppBar';
-import MoreVertIcon from 'material-ui/lib/svg-icons/navigation/more-vert';
+
 
 export default class Header extends Component {
   constructor(props) {
@@ -18,9 +18,6 @@ handleClick(e) {
     return (
         <AppBar
         title="Title"
-        iconElementLeft={ <IconButton onTouchTap={ this.handleClick }  >
-                  <MoreVertIcon/>
-                     </IconButton> }
         />
 );
   }
